@@ -6,12 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="username">Username</label>
-    <input type="text" id= "username"/>
+    <form id="userForm">
+    <label for="username">Username:</label>
+    <input type="text" id= "username" required/>
 
     <label for="passowrd">Password:</label>
     <input type="password" id="passowrd" required/>
 
+    <button type="submit"> Submit </button>
+</form>
 
+<p id="formOutput"></p>
+<script src="script.js"> </script>
 </body>
 </html>
