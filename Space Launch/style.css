@@ -2,6 +2,16 @@
     font-size: 200%;
     color: limegreen;
 }
-p {
+#countdown, #mission-complete {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
 
+mission-complete{
+    border-color: yellow;
+    display: none;
+}
+p {
+    transition: all 400ms;
 }
