@@ -1,4 +1,4 @@
-
+// Document Object Model
 
 const submitButton = document.getElementById('submitBtn');
 const outPutParagraph = document.getElementById('output')
