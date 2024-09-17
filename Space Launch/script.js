@@ -13,6 +13,10 @@ function launchMission(){
    const countdown= document.getElementById('countdown')
    countdown.style.display = 'none';
 
+   document.getElementById('mission-complete').style.display = 'block';
+
+   const astronauntName = document.getElementById('name-input').value;
+
    const name = document.getElementById('name-input').value;
    document.querySelector('h1').textContent = "Greetings" + name;
 
