@@ -15,7 +15,7 @@ const enterUsername = userNameInput.value;
 const enteredPassword = passWordInput.value;
 
 formOutput.textContent = "Username:" + enterUsername + 'Password' + enteredPassword;
-})
+});
 
 
 
