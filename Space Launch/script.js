@@ -1,3 +1,6 @@
+
+//when user click button this function executes
+
 function launchMission(){
    const prepareShip = document.getElementById('prepare-ship');
    prepareShip.classList.add('big');
@@ -20,5 +23,5 @@ function launchMission(){
    const name = document.getElementById('name-input').value;
    document.querySelector('h1').textContent = "Greetings" + name;
 
-}
+} 
 

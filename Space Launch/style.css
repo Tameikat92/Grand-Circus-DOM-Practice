@@ -2,6 +2,8 @@
     font-size: 200%;
     color: limegreen;
 }
+
+/* Styling for countdown and mission complete paragraphs */
 #countdown, #mission-complete {
     border: 2px solid red;
     border-radius: 5px;
@@ -10,7 +12,7 @@
 
 mission-complete{
     border-color: yellow;
-    display: none;
+    display: none;/* Initially hide the mission complete paragraph */
 }
 p {
     transition: all 400ms;
